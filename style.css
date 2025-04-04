@@ -1,0 +1,147 @@
+.titulo{
+    color:rgb(216, 230, 231);
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 10px ;
+}
+h2{
+    color: aliceblue;
+}
+
+ .yo{
+    color: black;
+ }
+ 
+ h3{
+    color: aliceblue;
+ }
+.bienvenida{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: -100px;
+    opacity: 0;
+    animation: slideIn 1.5s ease-out forwards;
+    text-align: center;
+}
+@keyframes slideIn {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+ 
+ 
+ 
+.model{
+    color: rgb(252, 251, 237);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: escribir 5s steps(30) infinite;
+}
+
+@keyframes escribir {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+button{
+    background-color: rgb(215, 252, 6);
+    background-color: #fff7fd;
+        color: rgb(243, 10, 173);
+        padding: 20px 20px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 60px;
+        transition: background-color 0.1s ease-in-out;
+        background-image: url(insta.png);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: 0.1px center;
+}
+
+ .fa{
+    background-image: url(facebook.png);
+    font-size: 20px;
+ }
+body{
+    background-image:url(negra.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:0;
+    height:500vh;
+}
+
+  .fabian{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+  }
+
+   .wppA{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+
+   }
+   .wpp{
+   display: flex
+   }
+    
+   .whpp{
+   margin-right: 300px;
+
+   }
+  .contenedor{
+    display: flex;
+
+  }
+
+   .contenedorW{
+    margin-right: 800px;
+   }
+  
+   .modelo{
+    color: aqua;
+   }
+.modeloA{
+    color: aqua;
+}
+p{
+ color: aliceblue;
+}
+ 
+.modeloB{
+    color: rgb(237, 243, 243);
+}
+.modeloD{
+    color: aliceblue;
+}
+
+ .modeloG{
+    color: aliceblue;
+ }
+
+  .modeloS{
+    color: aqua;
+  }
+
+   .modeloE{
+    color: aqua;
+   }
+
+    
+  
